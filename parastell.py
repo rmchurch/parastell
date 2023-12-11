@@ -215,7 +215,7 @@ def exports(export, components, magnets, logger):
             # Assign export paths
             file_path = os.getcwd()
             base_name = 'coil_mesh'
-            general_export_path = f"{cwd}/{base_name}"
+            general_export_path = f"{file_path}/{base_name}"
             exo_path = f'{general_export_path}.exo'
             h5m_path = f'{general_export_path}.h5m'
             # Exodus export
